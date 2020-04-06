@@ -3,4 +3,4 @@ The Guardian-Moch-Up
 
 #Wire Frame
 
-![wireframe](./wireFrame.png)
+![wireframe](/WireFrame.png)
