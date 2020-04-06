@@ -133,3 +133,72 @@ header{
   margin-right: 50px;
   margin-left: 50px;
 }
+
+
+.grid1{
+  border: solid black;
+  grid-column: 1 /13;
+  grid-row: 1;
+  line-height: 10px;
+  height: 150px;
+
+
+
+}
+.grid2{
+  border: solid black;
+  grid-column: 1/4;
+  grid-row: 2 / 8;
+}
+.grid3{
+  border: solid black;
+  grid-column: 4/10;
+  grid-row: 2 / 4;
+}
+.grid4{
+  border: solid black;
+  grid-column: 4/8;
+  grid-row: 4 / 8;
+  
+}
+.grid5{
+  border: solid black;
+  grid-column: 8/10;
+  grid-row: 4 / 6;
+
+}
+.grid6{
+  border: solid black;
+  grid-column: 8/10;
+  grid-row: 6/ 7;
+}
+.grid7{
+  border: solid black;
+  grid-column: 8/10;
+  grid-row: 7/ 8;
+}
+.grid8{
+  border: solid black;
+  grid-column: 10/12;
+  grid-row: 2/ 4;
+}
+.grid9{
+  border: solid black;
+  grid-column: 10/12;
+  grid-row: 4/ 5;
+}
+.grid10{
+  border: solid black;
+  grid-column: 10/12;
+  grid-row: 5/ 6;
+}
+.grid11{
+  border: solid black;
+  grid-column: 10/12;
+  grid-row: 6/ 7;
+}
+.grid12{
+  border: solid black;
+  grid-column: 10/12;
+  grid-row: 7/ 8;
+}
