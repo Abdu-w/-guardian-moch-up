@@ -8,3 +8,9 @@ header{
   height: 120px;
   flex: wrap;
 }
+
+.headerLeft{
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+}
