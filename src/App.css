@@ -1,18 +1,21 @@
 .App {
   text-align: center;
 }
-header{
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+
+.header{
   border:solid black;
   display: flex;
   background-color: #052962;
   height: 120px;
   flex: wrap;
-}
 
+}
 .headerLeft{
   margin: 0em;
   display: flex;
   flex-direction: column;
+  
 }
 
 .leftHeaderCont{
@@ -54,7 +57,6 @@ header{
   flex-direction: column;
   /* flex :wrap; */
 }
-
 .headlineCont{
   padding:2px;
   margin-bottom: 2px;
@@ -123,7 +125,34 @@ header{
 }
 
 
-/* ------------------grid */
+/* -----------------------grid2----------- */
+
+.weatherTable{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.day1{
+  width: 75px;
+  height: 150px;
+  border: solid;
+}
+
+.day2{
+  width: 75px;
+  height: 150px;
+  border: solid;
+  
+}
+.day3{
+  width: 75px;
+  height: 150px;
+  border: solid;
+  
+}
+
+
 .gridContainer{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -133,7 +162,6 @@ header{
   margin-right: 50px;
   margin-left: 50px;
 }
-
 
 .grid1{
   border: solid black;
