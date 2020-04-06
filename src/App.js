@@ -5,13 +5,14 @@ import './App.css';
 // import Nav from './components/Nav';
 // import Headline from './components/HeadLine';
 import Header from './components/Header';
-
+import Grid from './components/GridLayout'
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Grid />
       
     </div>
   );
