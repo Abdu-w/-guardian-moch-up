@@ -121,3 +121,15 @@ header{
   line-height: 35px;
   text-align: center;
 }
+
+
+/* ------------------grid */
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: minmax(75px, auto);
+  border: solid black;
+  margin-right: 50px;
+  margin-left: 50px;
+}
